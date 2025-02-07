@@ -7,8 +7,8 @@ masa_electron = 9.109e-31   # Masa del electrón (kg)
 vel_luz = 3.0e8             # Velocidad de la luz (m/s)
 
 # Definimos los parámetros de los campos
-campo_mag = 1e-3            # Intensidad del campo magnético (Tesla)
-campo_elec = 1e-3           # Intensidad del campo eléctrico (V/m)
+campo_mag = 2.5e-3            # Intensidad del campo magnético (Tesla)
+campo_elec = 2.5e-3           # Intensidad del campo eléctrico (V/m)
 
 # Calculamos la frecuencia de ciclotrón
 freq_ciclo = carga_electron * campo_mag / (masa_electron * vel_luz)
